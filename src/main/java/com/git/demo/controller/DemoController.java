@@ -11,5 +11,10 @@ public class DemoController {
 	public String hello() {
 		return "welcome";
 	}
+	@GetMapping("/hi")
+	public String hi() {
+		return "hi";
+	}
+
 
 }
